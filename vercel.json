@@ -1,7 +1,5 @@
 {
-  "build": {
-    "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider"
-    }
-  }
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build"
 }
