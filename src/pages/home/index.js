@@ -11,20 +11,14 @@ import { Helmet } from 'react-helmet';
 
 function Home() {
   return (
-    <div>
+    <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Home | Rushikesh Gavhane</title>
-
-        {/* Update domain later if you switch from Vercel */}
-        <link
-          rel="canonical"
-          href="https://rushi-portfolio.vercel.app/"
-        />
-
+        <link rel="canonical" href="https://rushi-portfolio.vercel.app/home" />
         <meta
           name="description"
-          content="Rushikesh Gavhane — MSc Data Analytics & AI at Queen Mary University of London. Building explainable, production-ready AI systems, RAG pipelines, and ML solutions."
+          content="Rushikesh Gavhane — MSc Data Analytics & AI at QMUL. Building explainable AI, RAG systems, and production-grade ML solutions."
         />
       </Helmet>
 
@@ -41,3 +35,14 @@ function Home() {
               <HomeRight />
             </Col>
           </Row>
+
+          <Row className="App-footer">
+            <Footer />
+          </Row>
+        </Container>
+      </Animate>
+    </>
+  );
+}
+
+export default Home;
