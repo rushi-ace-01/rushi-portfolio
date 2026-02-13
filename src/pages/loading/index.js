@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../loading/style.css';
 import { Redirect } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import PuffLoader from 'react-spinners/PuffLoader';
+//import PuffLoader from 'react-spinners/PuffLoader';
 
 class Loading extends Component {
   state = {
@@ -36,12 +36,9 @@ class Loading extends Component {
         </Helmet>
 
         <div className="Loading-header">
-          <PuffLoader
-            size={'40vw'}
-            color={'#fff'}
-            loading={true}
-          />
+          <div className="loading-logo">R</div>
         </div>
+
       </div>
     );
   }
