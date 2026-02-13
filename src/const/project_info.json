@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "Epydemix RAG Chatbot",
+      "tools": "Python, RAG, LangChain, FAISS, Ollama, FastAPI",
+      "link": "https://github.com/rushi-ace-01/epydemix-rag-assistant",
+      "image": []
+    },
+    {
+      "id": 1,
+      "name": "Latency-Aware Explainable Decision System",
+      "tools": "Python, FastAPI, SHAP, Streamlit, Time Series",
+      "link": "https://github.com/rushi-ace-01/latency-aware-decision-system",
+      "image": []
+    },
+    {
+      "id": 2,
+      "name": "Explainable Underwriting Risk Scoring Platform",
+      "tools": "Python, XGBoost, SHAP, Streamlit, Insurance Analytics",
+      "link": "https://github.com/rushi-ace-01/verisk-risk-scoring",
+      "image": []
+    },
+    {
+      "id": 3,
+      "name": "Advanced Calculus Solver",
+      "tools": "Python, CAMEL, RAG, Knowledge Graphs, Document AI",
+      "link": "https://github.com/rushi-ace-01/calculus-solver",
+      "image": []
+    }
+  ]
+}
