@@ -1,7 +1,12 @@
 {
-  "name": "portfolio-2020",
-  "version": "0.1.0",
+  "name": "rushi-portfolio",
+  "version": "1.0.0",
   "private": true,
+
+  "engines": {
+    "node": "16.x"
+  },
+
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -28,15 +33,18 @@
     "react-typing-effect": "^2.0.2",
     "styled-components": "^4.4.1"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
