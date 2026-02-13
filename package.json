@@ -1,10 +1,10 @@
 {
-  "name": "rushi-portfolio",
-  "version": "1.0.0",
+  "name": "portfolio-2020",
+  "version": "0.1.0",
   "private": true,
 
   "engines": {
-    "node": "16.x"
+    "node": "24.x"
   },
 
   "dependencies": {
