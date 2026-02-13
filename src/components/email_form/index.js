@@ -41,10 +41,10 @@ class Email_Form extends React.Component {
 
     emailjs
       .send(
-        "service_o7g1fdi",        // ✅ YOUR Gmail service ID
+        "service_zn23g5i",        // ✅ YOUR Gmail service ID
         "template_2qzmvue",         // 🔁 REPLACE with your template ID
         templateParams,
-        "a3j3•••••••••••••••••"        // 🔁 REPLACE with your public key
+        "F2p2U5LjsO5i5cjFa"        // 🔁 REPLACE with your public key
       )
       .then(() => {
         this.setState({ show: true, loading: false });
